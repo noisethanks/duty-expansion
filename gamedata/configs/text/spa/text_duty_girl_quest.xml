@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<string_table>
+	<string id="duty_girl_hunting_chimera_title">
+		<text>Cazador de Quimeras</text>
+		
+	</string>
+	<string id="duty_girl_hunting_chimera_descr_1">
+		<text>Acepte ayudar a Anna a cazar una Quimera. La vere en el mercado de pulgas.</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_descr_2">
+		<text>Acepte ayudar a Anna a cazar una Quimera. Estamos atacando la guarida del monstruo.</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_descr_3">
+		<text>El monstruo esta muerto. Volvere para recibir la recompensa.</text>
+	</string>
+	
+	<string id="duty_girl_monolith_elite_title">
+		<text>Limpia la ruta hacia el norte</text>
+	</string>
+	<string id="duty_girl_monolith_elite_descr_1">
+		<text>Deber esta a punto de lanzar un ataque contra un escuadron de Monolito de alto rango. Cualquier ayuda es bienvenida con la promesa de una recompensa.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_descr_2">
+		<text>El ataque ha comenzado. Ayuda a Deber a luchar contra los enemigos.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_descr_3">
+		<text>El ataque fue un exito. Es hora de cobrar mi recompensa.</text>
+	</string>
+	
+	<string id="duty_girl_loot_stash_title">
+		<text>Recompensa adicional</text>
+	</string>
+	<string id="duty_girl_loot_stash_descr_1">
+		<text>Me dieron las coordenadas de un alijo por ayudar en la mision.</text>
+	</string>
+	
+	<string id="duty_girl_capture_the_bridge_title">
+		<text>Capura el puente</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_descr_1">
+		<text>Deber quiere capturar el puente en el Bosque Rojo. Están a punto de atacar. Los ayudare a cambio de una recompensa.</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_descr_2">
+		<text>El ataque ha comenzado. Ayuda a Deber a luchar contra los enemigos.</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_descr_3">
+		<text>El ataque fue un éxito. Es hora de cobrar mi recompensa.</text>
+	</string>
+</string_table>

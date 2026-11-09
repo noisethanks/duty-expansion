@@ -1,0 +1,20 @@
+duty_girl_utils = duty_girl_utils or {}
+
+duty_girl_utils.HI = has_alife_info
+duty_girl_utils.GI = give_info
+duty_girl_utils.DI = disable_info
+function duty_girl_utils.NI(str) return not (has_alife_info(str)) end
+
+function duty_girl_utils.npcs_friendly_to_community(npc_1, npc_2, com)
+    local com_1 = npc_1 and character_community(npc_1)
+    local com_2 = npc_2 and character_community(npc_2)
+    if
+        com_1
+        and com_2
+        and (not game_relations.is_factions_enemies(com_1, com))
+        and (not game_relations.is_factions_enemies(com_2, com))
+    then
+        return true
+    end
+    return false
+end

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<string_table>
+	<string id="stalker_duty_girl_name">
+		<text>Anna</text>
+	</string>
+	
+	
+	
+	<string id="duty_girl_companion_join_0">
+		<text>Necesito una mano extra en la siguiente mision, ¿te interesa ayudarme?</text>
+	</string>
+	<string id="duty_girl_companion_join_1">
+		<text>Claro, te sigo.</text>
+	</string>
+	<string id="duty_girl_companion_join_2">
+		<text>¿No te lo estas pasando bien con ella? Lo siento, estoy ocupado ahora.</text>
+	</string>
+	
+	<string id="duty_girl_companion_leave_0">
+		<text>Creo que deberiamos separarnos por ahora..</text>
+	</string>
+	<string id="duty_girl_companion_leave_1">
+		<text>Estas seguro?</text>
+	</string>
+	<string id="duty_girl_companion_leave_2">
+		<text>Si. Hay algo que debo hacer solo.</text>
+	</string>
+	<string id="duty_girl_companion_leave_3">
+		<text>Pensadonolo bien, dos seria mejor.</text>
+	</string>
+	<string id="duty_girl_companion_leave_4">
+		<text>Esta bien. Buena caza. Volvere a Rostok. Recuerda pasar a visitarme de vez en cuando.</text>
+	</string>
+	
+	<string id="duty_girl_actor_ask_companion_0">
+		<text>Tenemos diferentes enemigos y amigos. ¿Hay alguna manera de que podamos cazar juntos?</text>
+	</string>
+	<string id="duty_girl_actor_ask_companion_1_lone">
+		<text>Mi presencia puede convencer a las tropas ucranianas de que te dejen en paz, pero no intentes nada estupido. No te ayudare si los enojas. A cambio, asegurate de que los anarquistas no me causen problemas. Entonces creo que podemos llevarnos bien.</text>
+	</string>
+	<string id="duty_girl_actor_ask_companion_1_csky">
+		<text>Mi presencia puede convencer a las tropas ucranianas de que te dejen en paz, pero no intentes ninguna estupidez. No te ayudare si los enojas. A cambio, asegurate de que los anarquistas y los mercenarios no me causen problemas. Entonces creo que podemos llevarnos bien.</text>
+	</string>
+	<string id="duty_girl_actor_ask_companion_1_army">
+		<text>Puedo convencer a los solitarios y a los miembros de Clear Sky de que no eres una amenaza. Sera mejor que actues en consecuencia. No te ayudare si los enojas. Entonces creo que estaremos bien.</text>
+	</string>
+	<string id="duty_girl_actor_ask_companion_1_ecol">
+		<text>No tienes muchos enemigos, ?eh? Creo que podemos llevarnos bien si logras convencer a los anarquistas y mercenarios de que no me ataquen.</text>
+	</string>
+	
+	<string id="duty_girl_companion_random_chat_1">
+		<text>Sera mejor que almacenemos mas municion cuando podamos..</text>
+	</string>
+	<string id="duty_girl_companion_random_chat_2">
+		<text>Sabes, podrias irte de la Zona. Sentar cabeza, empezar de nuevo, casarte con una chica....</text>
+	</string>
+	
+	<string id="duty_girl_companion_random_chat_special_1">
+		<text>No tienes buena pinta. Sera mejor que trates tu herida pronto..</text>
+	</string>
+	<string id="duty_girl_companion_random_chat_special_2">
+		<text>Tienes signos de radiacion. ¿Estas bien?</text>
+	</string>
+	<string id="duty_girl_companion_random_chat_special_3">
+		<text>Un nuevo dia y seguimos vivos. Eso es bueno.</text>
+	</string>
+	<string id="duty_girl_companion_random_chat_special_4">
+		<text>Ya amanecio. Hora de patearles el trasero a algunos mutantes..</text>
+	</string>
+	<string id="duty_girl_companion_random_chat_special_5">
+		<text>Buenos dias, supongo que los de Libertad siguen sonando con Chupasangres.</text>
+	</string>
+	<string id="duty_girl_companion_random_chat_special_6">
+		<text>Se acerca la noche. La Zona es aun mas peligrosa ahora.</text>
+	</string>
+	<string id="duty_girl_companion_random_chat_special_7">
+		<text>Se acerca la noche. ¿Deberiamos descansar un rato?</text>
+	</string>
+	<string id="duty_girl_companion_random_chat_special_8">
+		<text>¿A cuantos mutantes mataste hoy?</text>
+	</string>
+	
+	<string id="duty_girl_chat_0">
+		<text>Quiero preguntarte algo.</text>
+	</string>
+	<string id="duty_girl_chat_1">
+		<text>¿Dime?</text>
+	</string>
+	<string id="duty_girl_chat_2">
+		<text>Olvidalo.</text>
+	</string>
+	
+	
+	<string id="duty_girl_chat_hunting_chimera_0">
+		<text>Estabas ansiosa por matar a la quimera. ¿Fue por tu padre?</text>
+	</string>
+	<string id="duty_girl_chat_hunting_chimera_1">
+		<text>Si, mas o menos. Ya sabes, la mayoria de los miembros de Deber, yo incluido, somos aquellos que perdieron a sus amigos, a su familia en la Zona. Esos recuerdos no se olvidan facilmente.</text>
+	</string>
+	
+	<string id="duty_girl_chat_monolith_elite_0">
+		<text>Esos hombres parecen seguir tus ordenes.</text>
+	</string>
+	<string id="duty_girl_chat_monolith_elite_1">
+		<text>Se de medicina y suelo ayudar a los heridos, parece que les agrado. Tal vez porque no soy tan estricta como otros oficiales de servicio.</text>
+	</string>
+		
+	<string id="duty_girl_chat_capture_the_bridge_0">
+		<text>?Porque los Monolito querian bloquear la ruta?</text>
+	</string>
+	<string id="duty_girl_chat_capture_the_bridge_1">
+		<text>Son Monolitos. Siempre impiden que la gente llegue al centro de la Zona. Creo que aquellos contra los que luchamos eran victimas recientes del Quemador Cerebral. Los solitarios experimentados intentaran cruzar el campo psiquico del Quemador Cerebral para llegar al centro de la Zona. Pueden pasar muchas cosas, ataques mutantes que rompan su equipo de proteccion, no poder cruzar el campo a tiempo, etc. La ruta es peligrosa, pero al mismo tiempo tambien conduce a nuevas areas que no han sido escaneadas por nadie.</text>
+	</string>
+	
+	<string id="duty_girl_chat_capture_the_bridge_2">
+		<text>Vi que habia algunos solitarios uniendose a nosotros en la pelea en el puente.</text>
+	</string>
+	<string id="duty_girl_chat_capture_the_bridge_3">
+		<text>Quizas se vieron influenciados por nuestra accion de reabrir la ruta, ya que sus amigos se quedaron atrapados en el norte, por lo que vinieron a ayudar. O tal vez solo vinieron por la recompensa. De todas formas, cualquier ayuda es bienvenida.</text>
+	</string>
+	 
+	 
+	<string id="duty_girl_first_meet_0">
+		<text>Han pasado años desde la ultima vez que vi a una mujer.</text>
+	</string>
+	<string id="duty_girl_first_meet_1">
+		<text>Supongo que me veras por aqui mas a menudo..</text>
+	</string>
+	<string id="duty_girl_first_meet_2">
+		<text>No te habia visto antes. ¿Eres un nuevo recluta?</text>
+	</string>
+	<string id="duty_girl_first_meet_3">
+		<text>Me uni a Deber hace un año. Fue un reclutamiento de campo. Mi padre era un solitario y yo iba con el. Un dia, fuimos atacados por una Quimera. Consegui sobrevivir escondiendome en la cabina de un camion, pero el no lo logro. Lo mataron cuando intentaba protegerme. Luego, un escuadron de expedicion de Deber me encontro y me rescato. Asi que me uni a ellos, ya que no tenia otro lugar a donde ir y queria vengar a mi padre. He sido entrenada y he luchado junto a ellos desde entonces. Ahora que nuestra mision ha terminado, regresamos a la base esperando las siguientes ordenes.</text>
+	</string>
+	<string id="duty_girl_first_meet_4">
+		<text>Que historia tan triste. Lamento oir eso..</text>
+	</string>
+	<string id="duty_girl_first_meet_5">
+		<text>Estoy bien. Oye, tu eras el tipo que andaba por ahi pidiendo trabajo ultimamente, ¿no? Actualmente estoy a cargo de algunas operaciones especiales de Deber. Si necesitas trabajo, tal vez tenga algo para ti.</text>
+	</string>
+	
+	<string id="duty_girl_hunting_chimera_init_0">
+		<text>¿Tienes algun trabajo en el que te pueda ayudar?</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_init_1">
+		<text>Voy a ir a cazar ahora. Hay una quimera que ha estado molestando a Tabernero por un tiempo. Unete a mi y te compartire la mitad del botin. Nos vemos en el mercado de pulgas en caso de que aceptes.</text>
+	</string>
+	
+	
+	<string id="duty_girl_hunting_chimera_move_0">
+		<text>Estoy listo.</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_move_1">
+		<text>Acabo de verlo persiguiendo a unos bandidos desde lejos. Me alegro de verte. Era un gran animal, tendria que abandonar la mision si no vinieras a ayudar. Ya debe haber regresado a su guarida. Sigueme y quedate cerca.</text>
+	</string>
+	
+	<string id="duty_girl_hunting_chimera_hunt_1">
+		<text>Mira, es una Quimera oscura</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_hunt_2">
+		<text>No nos ha visto.</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_hunt_3">
+		<text>Sera mejor que hagas que el primer disparo cuente.</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_hunt_4">
+		<text>¡Ufff! Eso estuvo cerca.</text>
+	</string>
+	
+	<string id="duty_girl_hunting_chimera_done_0">
+		<text>El monstruo esta muerto.</text>
+	</string>
+	<string id="duty_girl_hunting_chimera_done_1">
+		<text>Eres mas duro de lo que pensaba. Estoy buscando buenos luchadores para mi mision y tu eres una buena incorporacion. Te lo explicare con detalle, pero creo que deberias preparar mejor equipamiento. Toma, la recompensa.</text>
+	</string>
+	
+	
+	<string id="duty_girl_monolith_elite_init_0">
+		<text>¿Tienes algun trabajo en el que te pueda ayudar?</text>
+	</string>
+	<string id="duty_girl_monolith_elite_init_1">
+		<text>Si, hay uno. Me temo que es bastante peligroso. Hace poco, un grupo de Monolito aparecio en Almacenes del ejercito bloqueando el camino hacia el Bosque Rojo. Los exploradores informaron que estan muy bien armados. La gente pide a gritos que se vuelva a abrir la ruta, asi que aqui estamos. Nos reuniremos en la casa abandonada en Almacenes del ejercito. Nos vemos alli.</text>
+	</string>
+	
+	<string id="duty_girl_monolith_elite_join_0">
+		<text>Vengo a unirme a vosotros.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_join_1">
+		<text>Me alegro de verte. Aqui tienes tus suministros. Preparate y dime cuando estes listo.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_join_2">
+		<text>Vamos.</text>
+	</string>
+	
+	<string id="duty_girl_monolith_elite_move_1">
+		<text>Abrochense los cinturones. No sera facil.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_move_2">
+		<text>Recuerda mantener la cabeza baja y seguir mis señales.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_move_3">
+		<text>Muevete.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_move_4">
+		<text>¡Eso es todo! ¡Buen trabajo, chicos!</text>
+	</string>
+	<string id="duty_girl_monolith_elite_move_5">
+		<text>Maldita sea, lo vieron.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_move_6">
+		<text>Todos, ataquen.</text>
+	</string>
+	
+	<string id="duty_girl_monolith_elite_done_0">
+		<text>Vengo por mi recompensa.</text>
+	</string>
+	<string id="duty_girl_monolith_elite_done_1">
+		<text>Si, aqui estas. Sabia que podia contar contigo. Tus contribuciones de hoy seran conocidas entre los soldados de Deber.</text>
+	</string>
+	
+	<string id="duty_girl_loot_stash_init_0">
+		<text>¿Tienes algun trabajo en el que te pueda ayudar?</text>
+	</string>
+	<string id="duty_girl_loot_stash_init_1">
+		<text>Todavia no tengo nada, pero quizas esto te interese. Te fue bien en la mision reciente y creo que la recompensa esta bastante mal pagada. Estas son las coordenadas obtenidas de la PDA de uno de los soldados Monolito. Un alijo, sin duda. Nadie lo ha asegurado todavia, tenemos que prepararnos para el siguiente movimiento. Asi que consideralo un beneficio para ti.</text>
+	</string>
+	<string id="duty_girl_loot_stash_init_2">
+		<text>Gracias.</text>
+	</string>
+	
+	<string id="duty_girl_capture_the_bridge_init_0">
+		<text>¿Tienes algun trabajo en el que te pueda ayudar?</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_init_1">
+		<text>El Monolito ha vuelto. Han capturado el puesto de avanzada cerca del puente en el Bosque Rojo. Los expulsaremos, al mismo tiempo que lo capturaremos y estableceremos un puesto de avanzada para mantener la ruta. Nuestro punto de reunion es la parada de autobus en el Bosque Rojo. Nos vemos alli.</text>
+	</string>
+	
+	<string id="duty_girl_capture_the_bridge_join_0">
+		<text>Vengo a unirme a ti.</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_join_1">
+		<text>Exploramos el terreno. Nuestro enemigo tiene menos combatientes habiles, pero son numerosos. Hemos visto a unos diez hombres, pero estoy seguro de que tienen refuerzos escondidos por ahi. Sera mas dificil que la pelea anterior. Coge tus suministros y preparate.</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_join_2">
+		<text>Estoy listo.</text>
+	</string>
+	
+	<string id="duty_girl_capture_the_bridge_move_1">
+		<text>Ten cuidado, son aun mas duros que antes.</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_move_2">
+		<text>No avancen demasiado. Permanezcan juntos..</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_move_3">
+		<text>Muevete.</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_move_4">
+		<text>Parece que ese era el ultimo. ¡Buen trabajo, gente!</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_move_5">
+		<text>Maldita sea, lo vieron.</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_move_6">
+		<text>Todos, ataquen.</text>
+	</string>
+	
+	<string id="duty_girl_capture_the_bridge_done_0">
+		<text>Vine a buscar mi recompensa.</text>
+	</string>
+	<string id="duty_girl_capture_the_bridge_done_1">
+		<text>Gracias por tu ayuda. Nuestros hombres estan de camino hacia aqui y el puesto de avanzada estara operativo pronto. Mi mision ha terminado. Creo que estare inactiva por un tiempo. Si necesitas ayuda extra en tus misiones, solo tienes que pedirla.</text>
+	</string>
+	
+	
+	
+	
+</string_table>

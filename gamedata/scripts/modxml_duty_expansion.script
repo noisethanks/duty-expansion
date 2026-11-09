@@ -1,0 +1,16 @@
+-- Injects Duty Expansion dialog, NPC profile, and character description
+-- content into the engine-registered files they previously rode in on
+-- via #include.
+
+function on_xml_read()
+    RegisterScriptCallback("on_xml_read", function(xml_file_name, xml_obj)
+        if xml_file_name == [[gameplay\dialogs_truck.xml]] then
+            xml_obj:insertFromXMLFile("gameplay\\dialogs_duty_girl.xml")
+            xml_obj:insertFromXMLFile("gameplay\\dialogs_duty_outpost.xml")
+        elseif xml_file_name == [[gameplay\npc_profile_mlr.xml]] then
+            xml_obj:insertFromXMLFile("gameplay\\npc_profile_duty_girl.xml")
+        elseif xml_file_name == [[gameplay\character_desc_truck.xml]] then
+            xml_obj:insertFromXMLFile("gameplay\\character_desc_duty_girl.xml")
+        end
+    end)
+end

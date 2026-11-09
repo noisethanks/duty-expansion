@@ -1,0 +1,18 @@
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+ehthumbs.db
+
+# Editor / backup clutter
+*.bak
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-workspace
+*.code-workspace
+CLAUDE.md

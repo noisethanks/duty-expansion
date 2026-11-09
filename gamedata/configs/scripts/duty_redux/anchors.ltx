@@ -1,0 +1,21 @@
+; Duty Expansion Redux anchors
+;
+; duty_redux_logic.script opens this file as a standalone ini with ini_file().
+; It must not be included into system.ltx or patched in through DLTX.
+;
+; One section per level, named anchors_<level name>. Only the current level's
+; section is read and validated against the nav mesh at level load.
+;
+; Format: name = pos:x,y,z dir:yaw fallback:other_name
+;   pos:      required, the raw position used by pt lines
+;   dir:      optional yaw in degrees. A dir: on the pt line overrides it
+;   fallback: optional anchor on the same level, used when this one fails
+;
+; pt lines reference an anchor with anchor:name in place of pos: and dir:.
+
+[anchors_l05_bar]
+bar_gate         = pos:85.4,0.0,137.9 dir:90
+bar_campfire     = pos:207.9,0.00,85.4 dir:135
+bar_shelter_far  = pos:208.6,-0.62,114.1 dir:-90
+bar_shelter_gate = pos:95.2,0.091,103.6 dir:90
+bar_bunker_bed   = pos:218.4,-5.13,123.2 dir:0

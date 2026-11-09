@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<string_table>
+	
+	<string id="red_duty_outpost_trader_concern_hostile_0">
+		<text>Aqui hay solitarios de distintas comunidades. ?No causan problemas?</text>
+	</string>
+	<string id="red_duty_outpost_trader_concern_hostile_1">
+		<text>No te preocupes. La zona esta bajo el control de Deber. Los amigos de Deber estan protegidos aqui y esta prohibido pelear. Sera mejor que no te metas en problemas.</text>
+	</string>
+	
+	<string id="red_duty_outpost_trader_task_1_name">
+		<text>Destruye a los mutantes</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_1_text">
+		<text>Acepte limpiar una guarida de mutantes para el lider del puesto de avanzada.</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_1_about">
+		<text>Todavia hay una guarida de mutantes a la que no hemos asignado ningun escuadron. ?Puedes encargarte de ella?</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_1_finish">
+		<text>Buen trabajo. Una tarea menos.</text>
+	</string>
+	
+	<string id="red_duty_outpost_trader_task_2_name">
+		<text>Mata al solitario</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_2_text">
+		<text>Acepte encargarme de un solitario para el lider del puesto de avanzada.</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_2_about">
+		<text>Tengo un objetivo de alta prioridad que necesito eliminar. Lo encontraron atacando a otros solitarios y cientificos locales. Se promete una recompensa para quien pueda eliminarlo.</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_2_finish">
+		<text>No me gusta matar, pero esa escoria se lo merece. Aqui esta la recompensa.</text>
+	</string>
+
+	<string id="red_duty_outpost_trader_task_3_name">
+		<text>Encuentra %s</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_3_text">
+		<text>El lider del puesto de avanzada me pidio que consiguiera una cierta cantidad de carne mutante. Llevale %s para recibir una recompensa.</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_3_about">
+		<text>La linea de suministro hasta nuestro punto es muy peligrosa. Quiero centrarme mas en las armas y la municion y menos en las cosas que podemos conseguir en la zona, como la comida. Hay muchos mutantes comestibles por aqui. Cazalos y trae %s. Entonces te dare una recompensa.</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_3_finish">
+		<text>Si, prefiero esto a las raciones MRE. Buen trabajo.</text>
+	</string>
+	
+	<string id="red_duty_outpost_trader_task_4_name">
+		<text>Encuentra %s</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_4_text">
+		<text>Algunos cientificos estan buscando una rara parte de mutante llamada %s.</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_4_about">
+		<text>Algunos cientificos siguen pidiendo un %s. Es de un mutante peligroso que mis muchachos suelen destrozar con balas y granadas. A ver si puedes conseguir uno.</text>
+	</string>
+	<string id="red_duty_outpost_trader_task_4_finish">
+		<text>Por fin alguien trae una muestra en una sola pieza.</text>
+	</string>
+
+	
+	<string id="meet_guid_duty_outpost_list_0">
+		<text>?A donde puedes acompanarme?</text>
+	</string>
+	<string id="meet_guid_duty_outpost_list_1">
+		<text>Al Bar 100Rads en Rostok por mil, al Skadovsk en Zaton por dos mil, a el Vertedero por tres mil, a Yantar por cuatro mil, a la Base Militar en Agroprom por cinco mil, al Campamento de novatos en el Cordon por seis mil y al Gran Pantano por seis mil.</text>
+	</string>
+
+	<string id="travel_guid_duty_outpost_0">
+		<text>Necesito que me lleven a algun lugar.</text>
+	</string>
+	<string id="travel_guid_duty_outpost_1">
+		<text>Si, ?donde?</text>
+	</string>
+	<string id="travel_guid_duty_outpost_2">
+		<text>A Rostok. %c[d_orange][1000 RU]</text>
+	</string>
+	<string id="travel_guid_duty_outpost_3">
+		<text>A Zaton. %c[d_orange][2000 RU]</text>
+	</string>
+	<string id="travel_guid_duty_outpost_4">
+		<text>A el Vertedero. %c[d_orange][3000 RU]</text>
+	</string>
+	<string id="travel_guid_duty_outpost_5">
+		<text>A Yantar. %c[d_orange][4000 RU]</text>
+	</string>
+	<string id="travel_guid_duty_outpost_6">
+		<text>A Agroprom. %c[d_orange][5000 RU]</text>
+	</string>
+	<string id="travel_guid_duty_outpost_7">
+		<text>A el Cordon. %c[d_orange][6000 RU]</text>
+	</string>
+	<string id="travel_guid_duty_outpost_8">
+		<text>A el Gran Pantano. %c[d_orange][6000 RU]</text>
+	</string>
+	<string id="travel_guid_duty_outpost_9">
+		<text>Cambie de opinion.</text>
+	</string>
+	
+	<string id="travel_guid_duty_outpost_from_others_0">
+		<text>?Conoces el puesto de guardia en el Bosque Rojo? Quiero ir alli.</text>
+	</string>
+	
+	<string id="travel_guid_duty_outpost_from_others_1">
+		<text>Si, sera %c[d_orange]%s RU%c[255,160,160,190].</text>
+	</string>
+	<string id="travel_guid_duty_outpost_from_others_2">
+		<text>Llevame ahi. %c[d_orange][%s RU]</text>
+	</string>
+	<string id="travel_guid_duty_outpost_from_others_3">
+		<text>Cambie de opinion.</text>
+	</string>
+	
+</string_table>

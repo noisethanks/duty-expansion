@@ -1,0 +1,88 @@
+local GI = duty_girl_utils.GI
+local NI = duty_girl_utils.NI
+
+--[[----------------------------------------------------------------------------------------------------
+    Config
+------------------------------------------------------------------------------------------------------]]
+local _ini = ini_file("scripts\\squad_duty_girl.ltx")
+local ALLOW_SIMULTANEOUS = _ini:r_bool("duty_girl_settings", "allow_simultaneous_companions")
+
+function allow_simultaneous_companions() return ALLOW_SIMULTANEOUS end
+
+--[[----------------------------------------------------------------------------------------------------
+	Main
+------------------------------------------------------------------------------------------------------]]
+function duty_girl_init()
+    if NI("duty_girl_init") then
+        if not (get_story_se_object("squad_duty_girl")) then
+            local smart = SIMBOARD.smarts_by_names["bar_dolg_general"]
+            local squad = SIMBOARD:create_squad(smart, "squad_duty_girl")
+        end
+        if get_story_se_object("squad_duty_girl") then GI("duty_girl_init") end
+    end
+end
+
+local function remove_anna_if_companion()
+    local ann = get_story_se_object("stalker_duty_girl")
+    if not (ann and alife():has_info(ann.id, "npcx_is_companion")) then return end
+    local npc = db.storage[ann.id] and db.storage[ann.id].object or level.object_by_id(ann.id)
+    if npc then dialogs_axr_companion.remove_companions_from_squad(db.actor, npc) end
+end
+
+local _companion_hook_applied = false
+
+function actor_on_first_update()
+    duty_girl_init()
+
+    -- One-shot load check: resolve any violation carried in from a save
+    if not ALLOW_SIMULTANEOUS then
+        local ann = get_story_se_object("stalker_duty_girl")
+        local hip = get_story_se_object("devushka")
+        if
+            ann
+            and hip
+            and alife():has_info(ann.id, "npcx_is_companion")
+            and alife():has_info(hip.id, "npcx_is_companion")
+        then
+            remove_anna_if_companion()
+        end
+    end
+
+    -- Wrap become_actor_companion once per process to intercept Hip's join
+    if not _companion_hook_applied then
+        local orig = dialogs_axr_companion.become_actor_companion
+        dialogs_axr_companion.become_actor_companion = function(a, b)
+            if not ALLOW_SIMULTANEOUS and b then
+                local hip = get_story_se_object("devushka")
+                if hip and b:id() == hip.id then remove_anna_if_companion() end
+            end
+            orig(a, b)
+        end
+        _companion_hook_applied = true
+    end
+end
+
+local npcs_friendly_to_community = duty_girl_utils.npcs_friendly_to_community
+
+function npc_on_before_hit(npc, shit, bone_id, flags)
+    if npc and string.find(npc:name(), "stalker_duty_girl", 1, true) then flags.ret_value = false end
+end
+
+function on_enemy_eval(npc, ene, flags)
+    if npc:has_info("npcx_is_companion") or ene:has_info("npcx_is_companion") then
+        local com = character_community(db.actor)
+        if com and npcs_friendly_to_community(npc, ene, com) then
+            flags.override = true
+            flags.result = false
+        end
+    end
+end
+
+--[[----------------------------------------------------------------------------------------------------
+	Registers
+------------------------------------------------------------------------------------------------------]]
+function on_game_start()
+    RegisterScriptCallback("actor_on_first_update", actor_on_first_update)
+    RegisterScriptCallback("npc_on_before_hit", npc_on_before_hit)
+    RegisterScriptCallback("on_enemy_eval", on_enemy_eval)
+end

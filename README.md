@@ -1,8 +1,10 @@
 
 # Duty Expansion Redux
 
-This repository is a refactoring of the original Duty Expansion mod for S.T.A.L.K.E.R: Anomaly created by 
+This repository is a refactoring of the original Duty Expansion mod for S.T.A.L.K.E.R: Anomaly created by
+
 https://github.com/GhenTuong
+
 https://www.moddb.com/mods/stalker-anomaly/addons/duty-expansion
 
 

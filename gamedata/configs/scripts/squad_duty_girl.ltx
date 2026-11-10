@@ -79,13 +79,18 @@ prior		= 500
 [beh@idle_bar]:beh@guard
 meet = meet@idle
 
-[beh@idle_garbage]:beh@hunt_chimera_1
+; Idle sections stand at the quest start points. They must not inherit a quest section,
+; because a quest section's on_info jumps would carry over into idle.
+[beh@idle_garbage]:beh@animpoint,beh@rush_at_10
+pt1 = 999999,guard_na	| anchor:gar_chimera_start
 meet = meet@idle
 
-[beh@idle_military]:beh@monolith_elite_1
+[beh@idle_military]:beh@animpoint,beh@rush_at_10
+pt1 = 999999,guard_na	| anchor:mil_elite_start
 meet = meet@idle
 
-[beh@idle_red_forest]:beh@capture_the_bridge_1
+[beh@idle_red_forest]:beh@animpoint,beh@rush_at_10
+pt1 = 999999,guard_na	| anchor:red_bridge_start
 meet = meet@idle
 
 [beh@guard]:beh@animpoint,beh@rush_at_10

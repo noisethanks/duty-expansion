@@ -56,6 +56,10 @@ Three sections — `[duty_girl_loot_weapons]`, `[duty_girl_loot_ammo]`,
 Weapon and ammo lists must be the same length per faction (they're
 paired by position). Players will be awarded a random weapon from their faction's list and the corresponding ammo. 
 
+## Changes in 0.1.1-beta
+- Fixed Anna getting stuck crouched and untalkable after quest kills, which blocked the reward.
+- Saves already stuck: leaving the level and returning does not fix them. Reload a save from before the kill.
+
 ## Credits 
 - GhenTuong for the original mod.
 - houston12346 for Russian translation

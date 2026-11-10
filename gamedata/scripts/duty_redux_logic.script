@@ -5,7 +5,7 @@
 	Renamed so it can load beside other copies of that script, such as the one in Western Goods.
 	Squads opt in with the redux_logic key. Condition and effect names use the redux_ prefix.
 ------------------------------------------------------------------------------------------------------]]
-REDUX_VERSION = "0.1.0-beta"
+REDUX_VERSION = "0.1.1-beta"
 
 --[[----------------------------------------------------------------------------------------------------
 	Conditions
